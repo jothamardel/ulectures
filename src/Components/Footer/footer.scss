@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+$primary-color: white;
+
+div {
+    box-sizing: border-box;
+  }
+
+
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 5px;
+    // padding: 10px;
+    background-color: $primary-color;
+    box-shadow: 5px 3px 5px rgba($color: #000000, $alpha: .2);
+    .body{
+        height: 80vh;
+        width: 100%;
+        // border: 2px solid green;
+    }
+    .homeIcon{
+        // border: 2px solid red;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 20vh;
+        width: 100%;
+    }
+}

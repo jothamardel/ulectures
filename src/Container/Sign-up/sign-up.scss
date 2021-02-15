@@ -10,7 +10,7 @@
     
     .container {
         @extend %shared-properties-container;
-        @include container(400px, 65%, relative, 45px);
+        @include container(400px, 65%, relative, 45px, 0);
         
         form {
             ::placeholder { 

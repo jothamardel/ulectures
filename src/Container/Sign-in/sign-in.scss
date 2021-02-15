@@ -7,16 +7,17 @@ $primary-color: #9799A1;
 
 %shared-properties-container {
     background-color: #fff;
-    border-radius: 2%;
+    border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 0 auto;
 }
 
-@mixin container($height, $width, $property, $top) {
+@mixin container($height, $width, $property, $top, $bottom) {
     height: $height;
     width: $width;
     position: $property;
     top: $top;
+    bottom: $bottom;
 }
 
 
@@ -31,7 +32,7 @@ $primary-color: #9799A1;
     
     .container {
         @extend %shared-properties-container;
-        @include container(290px, 65%, relative, 130px);
+        @include container(290px, 65%, relative, 130px, 0);
         
         form {
             ::placeholder { 

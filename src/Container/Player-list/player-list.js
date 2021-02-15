@@ -2,7 +2,7 @@ import React from "react";
 import "./player-list.scss";
 import View from "../../Assets/views.png";
 
-const PlayerList = ({}) => (
+const PlayerList = (props) => (
   <div className="player-w-container">
     <div className="views">
       <img src={View} alt="" />

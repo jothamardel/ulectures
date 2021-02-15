@@ -7,7 +7,7 @@ import Place from "../../Assets/bussiness.png";
 import Image from "../../Assets/Image.png";
 import Close from "../../Assets/close.png";
 
-const LecturerDetail = ({}) => (
+const LecturerDetail = (props) => (
   <div className="lec-details">
     <div className="detail-img">
       <img src={Image} alt="" />

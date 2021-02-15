@@ -2,7 +2,7 @@ import React from "react";
 import "./course-outline.scss";
 import Close from "../../Assets/close.png";
 
-const CourseOutline = ({}) => (
+const CourseOutline = (props) => (
   <div className="course-outline">
     <div className="outline-header">
       <h1>Maths Outline</h1>

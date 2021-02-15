@@ -14,11 +14,11 @@ function App() {
     <div className="App">
       {/* <SignIn /> */}
       {/* <SignUp/> */}
-      {/* <Card/>  */}
-      {/* <LecturerDetail/> */}
-      {/* <Course/> */}
-      {/* <CourseOutline/> */}
-      {/* <PayCourse/> */}
+      {/* <Card /> */}
+      {/* <LecturerDetail /> */}
+      {/* <Course /> */}
+      {/* <CourseOutline /> */}
+      {/* <PayCourse /> */}
       <Player />
       <PlayerList />
     </div>

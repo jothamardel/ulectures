@@ -2,7 +2,7 @@ import React from "react";
 import "./courses.scss";
 import Arrow from "../../Assets/arrow.png";
 
-const Course = ({}) => (
+const Course = (props) => (
   <div className="card-container">
     <div className="course-card">
       <div className="course-details">
@@ -13,7 +13,7 @@ const Course = ({}) => (
         <button>view</button>
         <button>
           {" "}
-          <img src={Arrow} alt /> watch{" "}
+          <img src={Arrow} alt="" /> watch{" "}
         </button>
         {/* <span> &gt; </span> */}
       </div>

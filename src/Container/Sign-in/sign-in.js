@@ -2,7 +2,7 @@ import React from "react";
 import "./sign-in.scss";
 import Vector from "../../Assets/Vector.png";
 
-function SignIn() {
+const SignIn = () => {
   return (
     <div className="sign-in">
       <div className="container">
@@ -33,6 +33,6 @@ function SignIn() {
       </div>
     </div>
   );
-}
+};
 
 export default SignIn;

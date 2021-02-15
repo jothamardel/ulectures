@@ -2,11 +2,11 @@ import React from "react";
 import "./card.scss";
 import Star from "../../Assets/Rating.png";
 
-const Card = ({}) => (
+const Card = (props) => (
   <div className="card-container">
     <div className="card">
       <div className="card-img">
-        <img src="" />
+        <img src="" alt="" />
       </div>
       <div className="card-details">
         <h3>Prof. Lukeman Job</h3>

@@ -18,6 +18,81 @@ const Course = (props) => (
         {/* <span> &gt; </span> */}
       </div>
     </div>
+
+    <div className="course-card">
+      <div className="course-details">
+        <h1>CS111</h1>
+        <p>Course title: Maths</p>
+      </div>
+      <div className="course-buttons">
+        <button>view</button>
+        <button>
+          {" "}
+          <img src={Arrow} alt="" /> watch{" "}
+        </button>
+        {/* <span> &gt; </span> */}
+      </div>
+    </div>
+
+    <div className="course-card">
+      <div className="course-details">
+        <h1>CS111</h1>
+        <p>Course title: Maths</p>
+      </div>
+      <div className="course-buttons">
+        <button>view</button>
+        <button>
+          {" "}
+          <img src={Arrow} alt="" /> watch{" "}
+        </button>
+        {/* <span> &gt; </span> */}
+      </div>
+    </div>
+
+    <div className="course-card">
+      <div className="course-details">
+        <h1>CS111</h1>
+        <p>Course title: Maths</p>
+      </div>
+      <div className="course-buttons">
+        <button>view</button>
+        <button>
+          {" "}
+          <img src={Arrow} alt="" /> watch{" "}
+        </button>
+        {/* <span> &gt; </span> */}
+      </div>
+    </div>
+
+    <div className="course-card">
+      <div className="course-details">
+        <h1>CS111</h1>
+        <p>Course title: Maths</p>
+      </div>
+      <div className="course-buttons">
+        <button>view</button>
+        <button>
+          {" "}
+          <img src={Arrow} alt="" /> watch{" "}
+        </button>
+        {/* <span> &gt; </span> */}
+      </div>
+    </div>
+
+    <div className="course-card">
+      <div className="course-details">
+        <h1>CS111</h1>
+        <p>Course title: Maths</p>
+      </div>
+      <div className="course-buttons">
+        <button>view</button>
+        <button>
+          {" "}
+          <img src={Arrow} alt="" /> watch{" "}
+        </button>
+        {/* <span> &gt; </span> */}
+      </div>
+    </div>
   </div>
 );
 

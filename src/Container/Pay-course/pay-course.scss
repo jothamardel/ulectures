@@ -7,6 +7,7 @@
         @extend %shared-properties-container;
         @include container(auto, 85%, relative, 25px, 0);
         border: 0.5px solid #d4d4d4;
+        margin: 40% auto;
 
 
         .pay-details {

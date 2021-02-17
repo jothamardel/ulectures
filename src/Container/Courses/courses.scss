@@ -2,11 +2,25 @@
 
 .card-container {
     background-color: #fff;
+    @media screen and (min-width: 660px) {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+
+}
 
     .course-card {
         @extend %shared-properties-container;
         @include container(auto, 85%, relative, 25px, 0);
         border: 0.5px solid #d4d4d4;
+        margin-top: 20px;
+        @media screen and (min-width: 700px) {
+            @include container(auto, 45%, relative, 25px, 0);
+        }
+        @media screen and (min-width: 1085px) {
+            @include container(auto, 30%, relative, 25px, 0);
+        }
 
 
         .course-details {

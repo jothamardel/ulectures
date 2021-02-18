@@ -14,11 +14,11 @@ function Home() {
         alt="full-pix"
       />
       <div className="appContainer">
-        <div className="logo">
-          <img src={Logo} alt="company" />
+        {/* <div className="logo">
           <p>lectures</p>
-        </div>
+        </div> */}
         <div className="paragraph">
+          <img src={Logo} alt="company" />
           <h2>Level Up!</h2>
           <p>
             Top lecturers from different universities, teaching millions of

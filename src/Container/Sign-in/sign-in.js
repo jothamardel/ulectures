@@ -1,6 +1,6 @@
 import React from "react";
 import "./sign-in.scss";
-import Vector from "../../Assets/Vector.png";
+import Vector from "../../assets/Vector.png";
 
 class SignIn extends React.Component {
   render() {

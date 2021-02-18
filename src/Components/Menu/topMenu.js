@@ -1,7 +1,7 @@
 import React from "react";
 import "./topMenu.scss";
-import Search from "../../assets/images/search.png";
-import User from "../../assets/images/user.png";
+import Search from "../../assets/search.png";
+import User from "../../assets/user.png";
 
 function Menu() {
   return (

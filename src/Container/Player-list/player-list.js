@@ -1,6 +1,6 @@
 import React from "react";
 import "./player-list.scss";
-import View from "../../Assets/views.png";
+import View from "../../assets/views.png";
 
 const PlayerList = (props) => (
   <div className="player-w-container">

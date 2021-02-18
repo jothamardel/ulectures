@@ -17,10 +17,10 @@ class App extends React.Component {
         {/* <SignUp /> */}
         {/* <Card /> */}
         {/* <LecturerDetail /> */}
-        <Course />
+        {/* <Course /> */}
         {/* <CourseOutline /> */}
         {/* <PayCourse /> */}
-        {/* <PlayerPage/> */}
+        <PlayerPage />
       </div>
     );
   }

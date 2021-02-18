@@ -2,17 +2,85 @@
 
 .card-container {
     background-color: #fff;
+     @media screen and (min-width: 660px) {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: 0 auto;
 
+    }
+     
     .card {
         @extend %shared-properties-container;
         @include container(auto, 85%, relative, 25px, 0);
         display: flex;
+        margin-top: 20px;
         padding-left: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-right: 10px;
         text-align: left;
         border: 0.5px solid #d4d4d4;
+        @media screen and (min-width: 400px) {
+            @include container(auto, 75%, relative, 25px, 0);
+            
+            justify-content: center;
+            .card-img {
+                margin-left: -30px;
+            }
+            .card-details {
+                margin-left: 5%;
+            }
+
+        }
+        @media screen and (min-width: 500px) {
+            @include container(auto, 65%, relative, 25px, 0);
+            
+            justify-content: center;
+            .card-img {
+                margin-left: -30px;
+            }
+            .card-details {
+                margin-left: 5%;
+            }
+
+        }
+        @media screen and (min-width: 660px) {
+            @include container(auto, 45%, relative, 25px, 0);
+            justify-content: center;
+            .card-img {
+                margin-left: 2px;
+            }
+            .card-details {
+                margin-left: 0;
+            }
+
+        }
+        @media screen and (min-width: 800px) {
+            @include container(auto, 40%, relative, 25px, 0);
+            justify-content: center;
+            .card-img {
+                margin-left: -12px;
+            }
+            .card-details {
+                margin-left: 0;
+            }
+
+        }
+        @media screen and (min-width: 1085px) {
+            @include container(auto, 30%, relative, 25px, 0);
+            .card-img {
+                height: 120px;
+                width: 120px;
+                background-color: #9799A1;
+                border-radius: 50%;
+                margin-left: -5%;
+            }
+    
+            .card-details {
+                margin-left: 5%;
+            }
+        }
 
         .card-img {
             height: 100px;
@@ -62,5 +130,6 @@
         }
 
 
+        
     }
 }

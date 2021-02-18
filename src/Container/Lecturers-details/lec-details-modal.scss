@@ -8,6 +8,51 @@
     background-color: #fff;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
+    @media screen and (min-width: 500px) {
+        @include container(auto, 65%, relative, 0px, 0px);
+        padding-bottom: 10%;
+        .detail-body {
+            p {
+                color: #d4d4d4;
+                font-size: 16px;
+                width: 70%;
+                margin: 0 15%; 
+                text-align: left;  
+                justify-content: center;       
+            }
+        }
+    }
+    @media screen and (min-width: 630px) {
+        @include container(auto, 45%, relative, 0px, 0px);
+        padding-bottom: 10%;
+        .detail-body {
+            p {
+                color: #d4d4d4;
+                font-size: 16px;
+                width: 70%;
+                margin: 0 25%; 
+                text-align: left;  
+                justify-content: center;       
+            }
+        }
+
+    }
+    @media screen and (min-width: 830px) {
+        @include container(auto, 35%, relative, 0px, 0px);
+        padding-bottom: 7%;
+        .detail-body {
+            p {
+                color: #d4d4d4;
+                font-size: 16px;
+                width: 70%;
+                margin: 0 25%; 
+                text-align: left;  
+                justify-content: center;       
+            }
+        }
+
+    }
     
     #close {
         position: absolute;
@@ -38,7 +83,7 @@
             color: #d4d4d4;
             font-size: 16px;
             width: 70%;
-            margin: 0 25%; 
+            margin: 0 20%; 
             text-align: left;  
             justify-content: center;       
         }

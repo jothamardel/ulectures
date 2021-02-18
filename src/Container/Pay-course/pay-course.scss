@@ -1,0 +1,46 @@
+@import "../Sign-in/sign-in.scss";
+
+.card-container {
+    background-color: #fff;
+
+    .pay-card {
+        @extend %shared-properties-container;
+        @include container(auto, 85%, relative, 25px, 0);
+        border: 0.5px solid #d4d4d4;
+
+
+        .pay-details {
+            text-align: center;
+            width: 100%;
+            p {
+                font-size: 20px;
+                color: #8f8f8f;
+                font-weight: 400;
+                padding-top: 6%;
+                padding-bottom: 4%;
+            }
+        }
+        .pay-buttons {
+            width: 100%;
+            display: flex;
+            padding-bottom: 15px;
+            justify-content: center;
+            button {
+                width: 50%;
+                height: 21px;
+                border-radius: 5px;
+                border: 1px solid #d4d4d4;
+                color: #fff;
+                background-color: #2D9CDB;
+                font-size: 10px;
+                margin: 8px;
+                img {
+                    height: 7px;
+                }
+            }
+            button:first-child {
+                width: 20%;
+            }
+        }
+    }
+}

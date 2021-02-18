@@ -1,6 +1,6 @@
 import React from "react";
 import "./homePage.scss";
-import Pix from "../../assets/full.png";
+import Pix from "../../Assets/full.png";
 
 function Home() {
   return (

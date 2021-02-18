@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Home from "../../Components/Homepage/homePage";
 // import Footer from "../../Components/Footer/footer";
-import Menu from "../../Components/Menu/topMenu";
+// import Menu from "../../Components/Menu/topMenu";
 // import UpdateProfile from "../../Components/Profile/profile";
 // import LecturerDetail from "../Lecturers-details/lec-details-modal";
 // import Card from "../Lecturers/card";
@@ -17,8 +17,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        {/* <Home /> */}
-        <Menu />
+        <Home />
+        {/* <Menu /> */}
         {/* <Footer /> */}
         {/* <UpdateProfile /> */}
         {/* <SignIn /> */}

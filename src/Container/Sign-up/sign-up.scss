@@ -1,0 +1,77 @@
+
+@import '../Sign-in/sign-in.scss';
+
+
+
+.sign-up {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    
+    .container {
+        @extend %shared-properties-container;
+        @include container(400px, 65%, relative, 45px, 0);
+        
+        form {
+            ::placeholder { 
+                color: #9799A1;
+                padding-left: 15px;
+              }
+
+            .input-field {
+                padding-top: 10px;
+                input {
+                    width: 80%;
+                    height: 30px;
+                    border-radius: 5px;
+                    border: 1px solid #d4d4d4;
+                }
+                #password {
+                    position: relative;
+                    left: 8px;
+                }
+                img {
+                    position: relative;
+                    right: 20px;
+                }
+            }
+            .submit {
+                padding-top: 10px;
+                input {
+                    width: 83%;
+                    height: 33px;
+                    border-radius: 5px;
+                    border: 1px solid #d4d4d4;
+                    color: #fff;
+                    background-color: #0E2A47;
+                } 
+            }
+        }
+        
+        p {
+            font-size: 10px;
+            color: #9799A1;
+            margin-top: 10px;
+
+            .last-child {
+                color: #0E2A47;
+                font-weight: bolder;
+            }
+        }
+
+    }
+}
+
+.sign-in-up-header {
+    font-size: 22px;
+    color: #9799A1;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+%text-center {
+    text-align: center;
+}
+
+
+

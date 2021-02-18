@@ -1,0 +1,62 @@
+@import "../Sign-in/sign-in.scss";
+
+
+.course-outline {
+    @extend %shared-properties-container;
+    @include container(auto, 85%, relative, 20px, 0px);
+    padding-bottom: 10%;
+    background-color: #fff;
+    
+    
+
+    .outline-header {
+        position: relative;
+        top: 10px;
+        h1 {
+            font-size: 24px;
+            color: #D3B714;
+        }
+    }
+    
+    #close {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        float: right;
+    }
+
+    .outline-body {
+        margin-top: 8%;
+        text-align: left;
+        margin-left: 5%;
+
+        h2{
+            font-size: 14px;
+            color: #8F8F8F;
+            font-weight: 500;
+        }
+        p {
+            font-size: 14px;
+            color: #d4d4d4;
+            width: 70%;
+            margin: 2% 20%;
+        }
+    }
+
+    .outline-button{
+        width: 90%;
+        margin: 0 auto;
+        button {
+            width: 100%;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid #d4d4d4;
+            color: #fff;
+            background-color: #2D9CDB;
+            font-size: 18px;
+        }
+    }
+    
+       
+    
+}

@@ -1,13 +1,13 @@
 import React from "react";
 import "./homePage.scss";
-import Photo from "../../assets/half.png";
+import Pix from "../../assets/full.png";
 
 function Home() {
   return (
-    <div className="App">
+    <div className="Home">
       <div className="appContainer">
         <div className="homeImage">
-          <img src={Photo} alt="pix" />
+          <img src={Pix} alt="full-pix" />
         </div>
         <div className="paragraph">
           <h2>Level Up!</h2>

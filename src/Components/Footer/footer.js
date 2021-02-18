@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.scss";
-import Home from "../../assets/images/home.png";
+import Home from "../../assets/home.png";
 
 function Footer() {
   return (

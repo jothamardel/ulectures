@@ -1,6 +1,6 @@
 import React from "react";
 import "./courses.scss";
-import Arrow from "../../Assets/arrow.png";
+import Arrow from "../../assets/arrow.png";
 
 const Course = (props) => (
   <div className="card-container">

@@ -1,6 +1,6 @@
 import React from "react";
 import "./homePage.scss";
-import Photo from "../../assets/images/half.png";
+import Photo from "../../assets/half.png";
 
 function Home() {
   return (

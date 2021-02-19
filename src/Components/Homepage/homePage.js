@@ -4,7 +4,7 @@ import Photo from "../../assets/half.png";
 
 function Home() {
   return (
-    <div className="App">
+    <div className="Home">
       <div className="appContainer">
         <div className="homeImage">
           <img src={Photo} alt="pix" />

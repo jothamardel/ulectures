@@ -1,0 +1,266 @@
+
+.Home {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15%;
+  
+
+  .background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    opacity: 0.3;
+    z-index: -1;
+  }
+
+  .student {
+    position: fixed;
+      top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 100vh;
+    z-index: -1;
+  }
+
+  .appContainer {
+    // border: 1px solid white;
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    
+
+    .logo {
+      // width: 100%;
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 100px;
+      }
+    }
+
+    .paragraph {
+      position: absolute;
+      top: 2rem;
+      right: 14rem;
+
+      img {
+        width: 100px;
+      }
+
+      h2 {
+        font-size: 50px;
+        color: #2699fb;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
+    padding-left: 2rem;
+
+    button {
+      padding: 10px 90px;
+      color: #0E2A47;
+      background-color:#E0E0E0 ;
+      border: none;
+      font-size: 15px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Home {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+
+
+    .background {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      min-width: 100vw;
+      min-height: 100vh;
+      opacity: 0.3;
+      z-index: -1;
+    }
+
+    .student {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: auto;
+      min-height: 100vh;
+      z-index: -1;
+    }
+
+    .appContainer {
+      width: 100%;
+      position: relative;
+      left: 0;
+      right: 0;
+      
+
+      .logo {
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 100px;
+        }
+      }
+
+      .paragraph {
+        position: absolute;
+        top: 18rem;
+        left: 68px;
+        width: 80%;
+
+        img {
+          width: 100px;
+        }
+
+        h2 {
+          font-size: 50px;
+          color: #2699fb;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      margin-top: 29rem;
+      padding-left: 2rem;
+
+      button {
+        padding: 10px 90px;
+        color: #0E2A47;
+        background-color:#E0E0E0 ;
+        border: none;
+        font-size: 15px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .Home {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+
+
+    .background {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      min-width: 100vw;
+      min-height: 100vh;
+      opacity: 0.3;
+      z-index: -1;
+    }
+
+    .student {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: auto;
+      min-height: 100vh;
+      z-index: -1;
+    }
+
+    .appContainer {
+      width: 100%;
+      position: relative;
+      left: 0;
+      right: 0;
+      
+
+      .logo {
+        // display: flex;
+        // justify-content: center;
+
+
+        img {
+          width: 100px;
+        }
+      }
+
+      .paragraph {
+        position: absolute;
+        top: 14rem;
+        left: 68px;
+        width: 80%;
+
+        img {
+          width: 100px;
+          margin: 0;
+        }
+
+        h2 {
+          font-size: 40px;
+          color: #2699fb;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      margin-top: 24rem;
+      padding-left: 2rem;
+
+      button {
+        padding: 10px 90px;
+        color: #0E2A47;
+        background-color:#E0E0E0 ;
+        border: none;
+        font-size: 15px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+
+

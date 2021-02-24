@@ -16,12 +16,12 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        {/* <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/signin' component={SignIn} />
-          <Route exact path='/signup' component={SignUp} />
-        </Switch> */}
-        <Dashboard />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/signin" component={SignIn} />
+          <Route exact path="/signup" component={SignUp} />
+          <Route exact path="/dashboard" component={Dashboard} />
+        </Switch>
         {/* <UpdateProfile /> */}
         {/* <LecturerDetail /> */}
         {/* <Course /> */}

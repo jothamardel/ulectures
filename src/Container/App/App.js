@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Home from "../../Components/Homepage/homePage";
+// import Home from "../../Components/Homepage/homePage";
 // import Footer from "../../Components/Footer/footer";
 // import Menu from "../../Components/Menu/topMenu";
 // import UpdateProfile from "../../Components/Profile/profile";
@@ -17,7 +17,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Home />
+        {/* <Home /> */}
         {/* <Menu /> */}
         {/* <Footer /> */}
         {/* <UpdateProfile /> */}
@@ -28,7 +28,7 @@ class App extends React.Component {
         <Course />
         {/* <CourseOutline /> */}
         {/* <PayCourse /> */}
-        {/* <PlayerPage /> */}
+        <PlayerPage />
       </div>
     );
   }

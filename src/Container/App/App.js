@@ -28,7 +28,7 @@ class App extends React.Component {
         <Course />
         {/* <CourseOutline /> */}
         {/* <PayCourse /> */}
-        <PlayerPage />
+        {/* <PlayerPage /> */}
       </div>
     );
   }

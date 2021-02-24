@@ -1,6 +1,6 @@
 import React from "react";
 import "./pay-course.scss";
-import Payment from "../../assets/payment.png";
+import Payment from "../../Assets/payment.png";
 
 const PayCourse = (props) => (
   <div className="card-container">

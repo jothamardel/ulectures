@@ -8,7 +8,7 @@ import "./App.css";
 // import Card from "../Lecturers/card";
 // import SignUp from "../Sign-up/sign-up";
 // import SignIn from "../Sign-in/sign-in";
-// import Course from "../Courses/courses";
+import Course from "../Courses/courses";
 // import CourseOutline from "../Course-outline/course-outline";
 // import PayCourse from "../Pay-course/pay-course";
 import PlayerPage from "../Player-component/player-component";
@@ -25,7 +25,7 @@ class App extends React.Component {
         {/* <SignUp /> */}
         {/* <Card /> */}
         {/* <LecturerDetail /> */}
-        {/* <Course /> */}
+        <Course />
         {/* <CourseOutline /> */}
         {/* <PayCourse /> */}
         <PlayerPage />

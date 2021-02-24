@@ -46,7 +46,9 @@ class SignUp extends React.Component {
                 <img src={Vector} alt="" />
               </div>
               <div className="submit">
-                <input type="submit" name="submit" value="create account" />
+                <Link to="/signin">
+                  <input type="submit" name="submit" value="create account" />
+                </Link>
               </div>
             </form>
             <p className="text-center">

@@ -1,15 +1,22 @@
 $primary-color: white;
-.menu{ 
-    background-color: rgb(158, 161, 163);
+.menu { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+    // background-color: rgb(158, 161, 163);
+    background-color: white;
+    border-bottom: 1px solid #7f7f7f;
     .content{
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
     .logo img {
-        width: 70px;
-        height: 50px;
-        margin-top: 5px;
+        width: 40px;
+        height: auto;
+        margin-top: 15px;
     }
     .Icons {
         display: flex;

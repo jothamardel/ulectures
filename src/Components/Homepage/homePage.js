@@ -1,13 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import "./homePage.scss";
 import "./home-page.style.scss";
-import Pix from "../../assets/full.jpg";
-import Logo from "../../assets/logo.png";
+import Pix from "../../Assets/full.jpg";
+import Logo from "../../Assets/logo.png";
 
 function Home() {
   return (
     <div className="Home">
-
       <img src={Pix} alt="full-pix" className="student" />
       <img
         className="background"
@@ -27,7 +27,9 @@ function Home() {
       </div>
 
       <div className="container">
-        <button type="btn">Start Learning</button>
+        <Link to="/signin">
+          <button type="btn">Start Learning</button>
+        </Link>
       </div>
     </div>
   );

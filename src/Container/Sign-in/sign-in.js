@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./sign-in.scss";
 import Vector from "../../Assets/Vector.png";
 
@@ -35,7 +36,9 @@ class SignIn extends React.Component {
             </p>
             <p className="text-center">
               Don’t have an account?{" "}
-              <a className="last-child">Create an account</a>
+              <Link to="/signup" className="last-child">
+                Create an account
+              </Link>
             </p>
           </div>
         </div>

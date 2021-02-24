@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./sign-up.scss";
 import Vector from "../../Assets/Vector.png";
 
@@ -50,7 +51,9 @@ class SignUp extends React.Component {
             </form>
             <p className="text-center">
               Already have an account?{" "}
-              <a className="last-child">Sign up here</a>
+              <Link className="last-child" to="/signin">
+                Sign in here
+              </Link>
             </p>
           </div>
         </div>

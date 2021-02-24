@@ -1,11 +1,11 @@
 import React from "react";
 import "./lec-details-modal.scss";
-import Star from "../../assets/Rating.png";
-import Phone from "../../assets/phone.png";
-import Mail from "../../assets/mail.png";
-import Place from "../../assets/bussiness.png";
-import Image from "../../assets/Image.png";
-import Close from "../../assets/close.png";
+import Star from "../../Assets/Rating.png";
+import Phone from "../../Assets/phone.png";
+import Mail from "../../Assets/mail.png";
+import Place from "../../Assets/bussiness.png";
+import Image from "../../Assets/Image.png";
+import Close from "../../Assets/close.png";
 
 const LecturerDetail = (props) => (
   <div className="lec-details">

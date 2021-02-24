@@ -1,6 +1,6 @@
 import React from "react";
 import "./player.scss";
-import Video from "../../assets/video.mp4";
+import Video from "../../Assets/video.mp4";
 
 const Player = (props) => (
   <div className="player">
@@ -11,3 +11,4 @@ const Player = (props) => (
 );
 
 export default Player;
+assets

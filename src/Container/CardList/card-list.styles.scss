@@ -2,11 +2,13 @@
 
 .card-container {
     background-color: #fff;
+    margin-top: 3rem;
      @media screen and (min-width: 660px) {
             display: flex;
             flex-wrap: wrap;
             width: 90%;
             margin: 0 auto;
+            margin-top: 3rem;
 
     }
      
@@ -113,18 +115,23 @@
                 width: 100%;
                 display: flex;
                 padding-top: 5px;
-                button {
-                    width: 70%;
-                    height: 23px;
-                    border-radius: 5px;
-                    border: 1px solid #d4d4d4;
-                    color: #fff;
-                    background-color: #2D9CDB;
-                    font-size: 10px;
-                }
-                button:first-child {
-                    width: 45%;
-                }
+                
+                    a {
+                        width: 70%;
+                        height: 23px;
+                        border-radius: 5px;
+                        border: 1px solid #d4d4d4;
+                        color: #fff;
+                        background-color: #2D9CDB;
+                        font-size: 12px;
+                        text-decoration: none;
+                        text-align: center;
+                        padding-top: 10px;
+                    }
+                    
+                    a:first-child {
+                        width: 45%;
+                    }
             }
             
         }

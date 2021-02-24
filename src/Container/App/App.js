@@ -5,9 +5,9 @@ import SignUp from "../Sign-up/sign-up";
 import SignIn from "../Sign-in/sign-in";
 import Dashboard from "../../Components/Dashboard/dashboard";
 import "./App.css";
-// import UpdateProfile from "../../Components/Profile/profile";
-// import LecturerDetail from "../Lecturers-details/lec-details-modal";
-// import Course from "../Courses/courses";
+import UpdateProfile from "../../Components/Profile/profile";
+import LecturerDetail from "../Lecturers-details/lec-details-modal";
+import CourseList from "../CourseList/course-list";
 // import CourseOutline from "../Course-outline/course-outline";
 // import PayCourse from "../Pay-course/pay-course";
 // import PlayerPage from "../Player-component/player-component";
@@ -21,10 +21,10 @@ class App extends React.Component {
           <Route exact path="/signin" component={SignIn} />
           <Route exact path="/signup" component={SignUp} />
           <Route exact path="/dashboard" component={Dashboard} />
+          <Route exact path="/profile" component={UpdateProfile} />
+          <Route exact path="/lecturer/:id" component={LecturerDetail} />
+          <Route exact path="/course" component={CourseList} />
         </Switch>
-        {/* <UpdateProfile /> */}
-        {/* <LecturerDetail /> */}
-        {/* <Course /> */}
         {/* <CourseOutline /> */}
         {/* <PayCourse /> */}
         {/* <PlayerPage /> */}

@@ -11,7 +11,7 @@ $primary-color: white;
     .content{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     .logo img {
         width: 40px;
@@ -20,10 +20,40 @@ $primary-color: white;
     }
     .Icons {
         display: flex;
+        justify-content: space-between;
         padding: 5px;
-        .searchIcon img{
-            padding-top: 10px;
-            width: 25px;
+        width: 80%;
+        // border: 1px solid red;
+        .searchIcon {
+            display: flex;
+            justify-content: space-around;
+            width: 90%;
+
+            input {
+                border: 1px solid orange;
+                height: 1.5rem;
+                margin-top: 8px;
+            }
+
+            span {
+                margin-top: 12px;
+                color: #7f7f7f;
+                cursor: pointer;
+            }
+
+            p {
+                padding-top: 0.6rem;
+                color: #7f7f7f;
+            }
+
+           
+            img {
+                padding-top: 10px;
+                // width: 25px;
+                height: 1.3rem;
+                display: flex;
+                justify-content: center;
+            }
         }
         .userIcon{
             margin-left: 10px;

@@ -1,18 +1,21 @@
 import React from "react";
-import "./lec-details-modal.scss";
+import { Link } from "react-router-dom";
 import Star from "../../Assets/Rating.png";
 import Phone from "../../Assets/phone.png";
 import Mail from "../../Assets/mail.png";
 import Place from "../../Assets/bussiness.png";
 import Image from "../../Assets/Image.png";
 import Close from "../../Assets/close.png";
+import "./lec-details-modal.scss";
 
 const LecturerDetail = (props) => (
   <div className="lec-details">
     <div className="detail-img">
       <img src={Image} alt="" />
     </div>
-    <img src={Close} alt="" id="close" />
+    <Link to="/dashboard">
+      <img src={Close} alt="" id="close" />
+    </Link>
     <div className="detail-body">
       <h3> Lukeman Job</h3>
       <div className="star-icon">
@@ -55,7 +58,9 @@ const LecturerDetail = (props) => (
         </div>
       </div>
       <div className="detail-button">
-        <button>Go to course</button>
+        <Link to="/course">
+          <button>Go to course</button>
+        </Link>
       </div>
     </div>
   </div>

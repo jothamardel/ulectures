@@ -1,6 +1,6 @@
 import React from "react";
 import "./course-outline.scss";
-import Close from "../../assets/close.png";
+import Close from "../../Assets/close.png";
 
 const CourseOutline = (props) => (
   <div className="course-outline">

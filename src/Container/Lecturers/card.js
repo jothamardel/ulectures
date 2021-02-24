@@ -1,6 +1,6 @@
 import React from "react";
 import "./card.scss";
-import Star from "../../assets/Rating.png";
+import Star from "../../Assets/Rating.png";
 
 const Card = (props) => (
   <div className="card-container">

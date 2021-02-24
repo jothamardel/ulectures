@@ -45,20 +45,23 @@
             display: flex;
             // padding-bottom: 5px;
             justify-content: center;
-            button {
+            a {
                 width: 35%;
                 height: 20px;
                 border-radius: 5px;
                 border: 1px solid #d4d4d4;
                 color: #fff;
                 background-color: #2D9CDB;
-                font-size: 10px;
+                font-size: 15px;
                 margin: 8px;
+                text-decoration: none;
+                text-align: center;
+                padding: 4px;
                 img {
                     height: 7px;
                 }
             }
-            button:first-child {
+            a:first-child {
                 width: 20%;
             }
         }

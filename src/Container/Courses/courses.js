@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./courses.scss";
 import Arrow from "../../Assets/arrow.png";
 
@@ -11,11 +12,11 @@ const Course = (props) => (
           <p>{`Course title: ${item.title}`}</p>
         </div>
         <div className="course-buttons">
-          <button>view</button>
-          <button>
+          <Link>view</Link>
+          <Link to="/play">
             {" "}
             <img src={Arrow} alt="" /> watch{" "}
-          </button>
+          </Link>
           {/* <span> &gt; </span> */}
         </div>
       </div>

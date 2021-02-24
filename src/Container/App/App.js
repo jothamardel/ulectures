@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Home from "../../Components/Homepage/homePage";
+// import Home from "../../Components/Homepage/homePage";
 // import Footer from "../../Components/Footer/footer";
 // import Menu from "../../Components/Menu/topMenu";
 // import UpdateProfile from "../../Components/Profile/profile";
@@ -11,13 +11,13 @@ import Home from "../../Components/Homepage/homePage";
 // import Course from "../Courses/courses";
 // import CourseOutline from "../Course-outline/course-outline";
 // import PayCourse from "../Pay-course/pay-course";
-// import PlayerPage from "../Player-component/player-component";
+import PlayerPage from "../Player-component/player-component";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Home />
+        {/* <Home /> */}
         {/* <Menu /> */}
         {/* <Footer /> */}
         {/* <UpdateProfile /> */}
@@ -28,7 +28,7 @@ class App extends React.Component {
         {/* <Course /> */}
         {/* <CourseOutline /> */}
         {/* <PayCourse /> */}
-        {/* <PlayerPage /> */}
+        <PlayerPage />
       </div>
     );
   }

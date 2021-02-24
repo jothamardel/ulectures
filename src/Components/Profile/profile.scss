@@ -1,7 +1,3 @@
-
-div{
-    box-sizing: border-box;
-}
 .profileContent{
     display: flex;
     flex-direction: column;
@@ -12,21 +8,27 @@ div{
 
     .profile-head{
         background-color: #c4c4c4;
+        text-align: center;
+        padding: 10px;
         h1{
             font-size: 22px;
         }
     }
 
     .profile-button{
+        justify-content: center;
+        margin: 10px auto;
+        width: 90%;
         button{
             background-color: #2D9CDB;
             color: white;
-            width: 90%;
+            width: 100%;
             height: 39px;
             border: none;
             border-radius: 5px;
             font-size: 18px;
-            margin:450px 0px 10px 0px;
+            
         }
+        
     }
 }

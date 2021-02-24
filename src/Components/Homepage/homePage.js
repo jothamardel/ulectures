@@ -1,8 +1,8 @@
 import React from "react";
 // import "./homePage.scss";
 import "./home-page.style.scss";
-import Pix from "../../Assets/full.jpg";
-import Logo from "../../Assets/logo.png";
+import Pix from "../../assets/full.jpg";
+import Logo from "../../assets/logo.png";
 
 function Home() {
   return (
@@ -14,9 +14,6 @@ function Home() {
         alt="full-pix"
       />
       <div className="appContainer">
-        {/* <div className="logo">
-          <p>lectures</p>
-        </div> */}
         <div className="paragraph">
           <img src={Logo} alt="company" />
           <h2>Level Up!</h2>

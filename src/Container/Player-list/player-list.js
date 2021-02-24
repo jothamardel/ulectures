@@ -22,6 +22,18 @@ const PlayerList = (props) => (
         <div className="player-list-button">
           <button>Introduction</button>
         </div>
+        <div className="player-list-button">
+          <button>Introduction</button>
+        </div>
+        <div className="player-list-button">
+          <button>Introduction</button>
+        </div>
+        <div className="player-list-button">
+          <button>Introduction</button>
+        </div>
+        <div className="player-list-button">
+          <button>Introduction</button>
+        </div>
       </div>
     </div>
   </div>

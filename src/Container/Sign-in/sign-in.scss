@@ -46,11 +46,19 @@ $primary-color: #9799A1;
         form {
             ::placeholder { 
                 color: #9799A1;
-                padding-left: 15px;
+                padding-left: 0px;
               }
 
             .input-field {
                 padding-top: 10px;
+                input[type="email"] {
+                    box-sizing: border-box;
+                    padding-left: 15px;
+                }
+                input[type="password"] {
+                    box-sizing: border-box;
+                    padding-left: 15px;
+                }
                 input {
                     width: 80%;
                     height: 30px;

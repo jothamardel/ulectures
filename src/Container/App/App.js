@@ -28,7 +28,6 @@ class App extends React.Component {
           <Route exact path="/play" component={PlayerPage} />
         </Switch>
         {/* <PayCourse /> */}
-        {/* <PlayerPage /> */}
       </div>
     );
   }

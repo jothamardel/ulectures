@@ -1,7 +1,7 @@
 import React from "react";
 import Menu from "..//Menu/topMenu";
 import CardList from "../../Container/CardList/card-list";
-import Footer from "../Footer/footer";
+// import Footer from "../Footer/footer";
 import "./dashboard.styles.scss";
 
 class Dashboard extends React.Component {
@@ -25,7 +25,6 @@ class Dashboard extends React.Component {
       <>
         <Menu setInput={this.setInput} />
         <CardList data={filteredResult} />
-        <Footer />
       </>
     );
   }

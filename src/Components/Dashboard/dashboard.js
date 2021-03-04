@@ -37,7 +37,7 @@ var data = [
     id: 0,
     name: "Prof. Lukeman John",
     dept: "Accounting",
-    // photoUrl: `https://robohash.org/${name}?set=set5&size=50x50`
+    // photoUrl: `https://robohash.org/$name?set=set5&size=50x50`
   },
   {
     id: 1,
